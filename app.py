@@ -11,6 +11,7 @@ st.markdown("*Dynamic Dialectical Engine - Düşünceyi genişleten motor*")
 # --- YAN MENÜ (İŞLETİM SİSTEMİ KONTROLLERİ) ---
 with st.sidebar:
     st.header("⚙️ EOS Kontrol Paneli")
+    active_role = st.selectbox(...) # <-- Tam olarak st.header ile aynı hizada
     
     # API anahtarını gizli kasadan çekiyoruz (Kullanıcı arayüzde görmez)
 os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
