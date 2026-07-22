@@ -1,3 +1,6 @@
 streamlit
 langchain-groq
 langchain-core
+langchain-community
+neo4j
+python-docx
